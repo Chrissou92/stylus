@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css" />
+  <title>Stylus</title>
+</head>
+
+<body>
+
+  <!--bloc 1 image de fond  -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 nopadding">
+        <div class="fondImage">
+          <div class="fondImageText">
+            <h1>Styl.us</h1>
+            <p>Turn your pen into you best friend<br> Make every line you write count..
+              <p>
+                <button type="button" class="btn btn-primary btn-lg">GET YOUR STYLUS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIN bloc 1 image de fond  -->
+
+  <!--bloc 2 fond bleu  -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 nopadding">
+        <div class="fondBleu">
+          <div class="row">
+            <div class="col-md-2 col-xs-0 col-sm-0 col-lg-2">
+            </div>
+            <div class="col-md-2 col-xs-12 col-sm-6 col-lg-2">
+              <div class="feuille text-center">
+                <img src="image/feuille.png" alt="feuille avec un stylo">
+                <h4>Natural writing</h4>
+                <p>Don't change your habits, write with a<br> pen
+                  <strong> on paper notebooks</strong></p>
+              </div>
+            </div>
+            <div class="col-md-2 col-xs-12 col-sm-6 col-lg-2">
+              <div class="internet text-center">
+                <img src="image/internet.png" alt="planisphere internet">
+                <h4>Sync. copy</h4>
+                <p>Stylus Instantaneously copy your text<br> on your computer,<strong>In real-time</strong></p>
+              </div>
+            </div>
+            <div class="col-md-2 col-xs-12 col-sm-6 col-lg-2">
+              <div class="module text-center">
+                <img src="image/module.png" alt="feuille avec roue cranté">
+                <h4>Analytic</h4>
+                <p>Get feedback on the way you write,<br>
+                  <strong>Your favorite words, your<br>
+                frequenrt mistakes</strong></p>
+              </div>
+            </div>
+            <div class="col-md-2 col-xs-12 col-sm-6 col-lg-2">
+              <div class="analyse text-center">
+                <img src="image/analyse.png" alt="logo pinceau sur une feuille">
+                <h4>Storin your texts</h4>
+                <p>Everything line writen with your stylus<br> is stored in the cloud, so that<strong>it's<br>
+                never lost</strong></p>
+              </div>
+            </div>
+            <div class="col-md-2 col-xs-12 col-sm-6 col-lg-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIN bloc 2 fond bleu  -->
+
+  <!--Bloc 3 fond blanc  -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 nopadding">
+        <div class="fondBlanc text-center">
+          <h2>Get news from stylus</h2>
+          <p>Leave us your mail and get stylus news</p>
+          <input class="email" type="email" name="user_email" value="email@exemple.com">
+          <button type="button" class="btn btn-primary btn-lg">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIN bloc 3 fond blanc-->
+
+  <!--bloc 4 map -->
+  <div id="map"></div>
+  <script>
+    function initMap() {
+      var uluru = {
+        lat: -25.363,
+        lng: 131.044
+      };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBt9AQRuYNxDm0cIDoGUWRrwGyd6ImOys&callback=initMap">
+  </script>
+  <!--FIN bloc 4 map  -->
+  <!--bloc 5 fond noir  -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 nopadding">
+        <div class="fondNoir">
+          <div class="row">
+            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 nopadding">
+              <div class="fondNoirText">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true" style="padding-left:15px;"></i>
+                <i class="fa fa-facebook" aria-hidden="true" style="padding-left:15px;"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true" style="padding-left:15px;"></i>
+              </div>
+            </div>
+            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 nopadding">
+              <div class="fondNoirText">
+                <p>Stylus is a fictive product by LeWagon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

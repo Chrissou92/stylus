@@ -1,0 +1,100 @@
+.nopadding {
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+
+/*block 1 image de fond*/
+
+.fondImage {
+  background-image: url(../image/url.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.fondImageText {
+  padding-top: 78px;
+  padding-left: 177px;
+  color: white;
+  font-size: 20px;
+}
+
+.fondImageText p {
+  padding-top: 20px;
+}
+
+
+/*FIN bloc 1 image de fond*/
+
+
+/*bloc 2 fond bleu*/
+
+.fondBleu {
+  background-color: #2289b8;
+  min-height: 400px;
+  overflow: hidden;
+  color: white;
+  font-size: 11px;
+  padding-top: 90px;
+}
+
+.feuille h4 {
+  padding-top: 25px;
+}
+
+.internet h4 {
+  padding-top: 28px;
+}
+
+.module h4 {
+  padding-top: 25px;
+}
+
+.analyse h4 {
+  padding-top: 35px;
+}
+
+
+/*FIN de fond bleu*/
+
+
+/*bloc 3 fond blanc*/
+
+.fondBlanc {
+  min-height: 250px;
+  padding-top: 70px;
+}
+
+.email {
+  padding: 8px 13px;
+}
+
+
+/*Fin bloc 3 fond blanc*/
+
+
+/*bloc 4 map*/
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+
+/*FIN bloc 4 map*/
+
+
+/*bloc 5 fond noir*/
+
+.fondNoir {
+  height: 100px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.fondNoirText {
+  color: white;
+  padding-left: 150px;
+  font-size: 25px;
+}
